@@ -54,13 +54,769 @@
 </div>
 
 
-    <main>
-        <h3>Main Content</h3>
-        <p>This is the main content of your webpage. You can add your text, images, and other elements here.</p>
-    </main>
+    <main class="main-padding">
+      <div class="search-container">
+        <div class="search-input">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="text" placeholder="Search the website..." />
+        </div>
+        <div class="search-bar-actions">
+          <div class="drop-down-menu">
+            <label for="sort">Sort by:</label>
+            <select name="sort" id="sort">
+              <option value="default" selected>Default</option>
+              <option value="design">Design</option>
+              <option value="back-end">Back-End</option>
+              <option value="front-end">Front-End</option>
+            </select>
+          </div>
+          <div class="drop-down-menu">
+            <label for="filter">Filter by:</label>
+            <select name="filter" id="filter">
+              <option value="default" selected>Default</option>
+              <option value="design">Design</option>
+              <option value="back-end">Back-End</option>
+              <option value="front-end">Front-End</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
+      <span>"24" Web Topics Found</span>
+      <section class="topics"></section>
+      <section class="topics"><article class="topic">
+        <img src="../assets/html.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Languages</p>
+            <p class="topic-title">HTML</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Sarah smith</section>
+          </div>
+        </section>
+       
+      </article>
+      <article class="topic">
+        <img src="../assets/css.webp" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Languages</p>
+            <p class="topic-title">CSS</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: David Lee</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/javascript.jpg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Languages</p>
+            <p class="topic-title">JavaScript</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: John Johnson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/jquery.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Languages</p>
+            <p class="topic-title">jQuery</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: John Johnson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/angular.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Frontend Frameworks and Libraries</p>
+            <p class="topic-title">Angular</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Jessica Davis</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/react.webp" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Frontend Frameworks and Libraries</p>
+            <p class="topic-title">React</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Olivia Martinez</section>
+          </div></section>
+       
+      </article>
+      <article class="topic">
+        <img src="../assets/vuejs.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Frontend Frameworks and Libraries</p>
+            <p class="topic-title">Vue</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/nodejs.webp" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Backend Frameworks and Libraries</p>
+            <p class="topic-title">Node.js</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/expressjs.webp" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Backend Frameworks and Libraries</p>
+            <p class="topic-title">Express.js</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article>
+      <article class="topic">
+        <img src="../assets/ruby.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Backend Frameworks and Libraries</p>
+            <p class="topic-title">Ruby on Rails</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article>
+      <article class="topic">
+        <img src="../assets/django.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Backend Frameworks and Libraries</p>
+            <p class="topic-title">Django</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/flask.webp" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Backend Frameworks and Libraries</p>
+            <p class="topic-title">Flask</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ethan Thompson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/sql.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Database and APIs</p>
+            <p class="topic-title">SQL</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Madison Davis</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/nosql.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Database and APIs</p>
+            <p class="topic-title">NoSQL</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Isabella Wilson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/restapi.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Database and APIs</p>
+            <p class="topic-title">REST APIs</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Jacob Garcia</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/graphql.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Database and APIs</p>
+            <p class="topic-title">GraphQL</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Mia Brown</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/oauth.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">OAuth</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Evelyn Nguyen</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/json.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">JSON</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Lian Hernandez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/ajax.gif" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">AJAX</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Avery Perez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/wai.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">WebSockets</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Victoria Kim</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/responsive.gif" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Responsive Design</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ryan Jones</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/accessibility.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Accessibilty</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Samantha Martin</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/ux.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">User Experience(UX)</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Luke Davis</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/ui.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">User Interface (UI)</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Grace Wilson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/design-systems.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Design Systems</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Noah Martinez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/performance.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Performance Optimization</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Chloe Taylor</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/cross-browser.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Cross-Compatibility</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: David Lee</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/seo.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Search Engine Optimization (SEO)</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ava Jones</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/web-security.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Web Security</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Gabriel Hernandez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/testing.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Testing and Debugging</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Avery Perez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/ci-cd.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Continuous Integration/Continuous Integration Continuous Integration/Continuous Integration </p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Madison Davis</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/devops.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">DevOps</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Isabella Wilson</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/cloud.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Cloud Computing</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Jacob Garcia</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/docker.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Docker</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Mia Brown</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/microservices.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">MicroServices</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Evelyn Nguyen</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/pwa.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Progressive Web Apps</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Lian Hernandez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/wai.jpeg" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Web Accessibility Initiaive</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Avery Perez</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/cms.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Content Mangment Systems</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Victoria Kim</section>
+          </div></section>
+       
+      </article><article class="topic">
+        <img src="../assets/analytics.png" alt="topic" srcset="">
+        <section class="topic-info">
+          <section class="topic-name">
+            <p class="category">Web Development Concepts and Technologies</p>
+            <p class="topic-title">Web Analytics</p>
+          </section>
+          <div class="topic-card-footer">
+            <section class="topic-rate">
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star" role="img" class="md hydrated"></ion-icon>
+              <ion-icon name="star-outline" role="img" class="md hydrated"></ion-icon>
+            </section>
+            <section class="topic-author">Author: Ryan Jones</section>
+          </div></section>
+       
+      </article></section>
+    </main>
+    <section class="favorites">
+      <h1>My Favourites Topics</h1>
+
+      <section class="topics-favorites">
+        <section class="topic-favorites">
+          <img src="../assets/html.png" alt="topic" srcset="" />
+          <section class="topic-info">
+            <p class="topic-title">HTML</p>
+            <section class="topic-rate">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <p>Developed with</p>
+      <ion-icon name="heart"></ion-icon>
+      <p>&copy; 2023</p>
+    </footer>
     </footer>
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <!-- <script src="../js/app.js"></script>

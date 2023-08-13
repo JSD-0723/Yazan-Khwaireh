@@ -1,4 +1,9 @@
-nav{
+header {
+    width: 100%;
+    background-color: var(--bg_default);
+  }
+ 
+  nav{
 
 position: relative;
 z-index: 100;
@@ -6,10 +11,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
-header {
-    width: 100%;
-    background-color: var(--bg_default);
-  }
+
   .nav-container1 {
     display: flex;
     justify-content: space-between;
@@ -56,10 +58,74 @@ nav h1 {
   font-size: 1.5rem;
   margin: 0;
 }
-/* .container-4 {
-  height: 10rem;
-} */
+
 
 .nav-actions-container span {
   margin-left: 0.5rem;
 }
+
+.shape {
+  background-color: var(--bg_default);
+  height: 6rem;
+  box-sizing: content-box;
+  padding-bottom: 1.2rem;
+  overflow: hidden;
+}
+
+.shape2 {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 104, 172, 1) 0%,
+    rgba(6, 134, 157, 1) 34%,
+    rgba(3, 193, 128, 1) 100%
+  );
+  height: 138%;
+  transform: skewY(357deg);
+  margin-right: -1rem;
+}
+
+.shape1 {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 104, 172, 1) 0%,
+    rgba(4, 174, 137, 1) 39%,
+    rgba(3, 193, 128, 1) 100%
+  );
+  height: 138%;
+  transform: skewY(-357deg);
+  margin-right: -1rem;
+}
+
+
+/* desktop view */
+@media only screen and (min-width: 801px) {
+  .welcome-container {
+    margin-top: -4.5rem;
+  }
+  .shape2 {
+    top: -238px;
+  }
+
+  .shape1 {
+    top: -111px;
+  }
+}
+
+/* mobile view */
+@media only screen and (max-width: 800px) {
+  .welcome-container {
+    margin-top: -5.5rem;
+  }
+  .nav-actions-container span {
+    display: none;
+  }
+  .shape2 {
+    top: -251px;
+  }
+  .shape1 {
+    top: -117px;
+  }
+}
+

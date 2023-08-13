@@ -10,3 +10,72 @@ body {
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
   }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    height: 2rem;
+    padding: 2.6rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  footer ion-icon {
+    font-size: 1.5rem;
+    color: var(--heart-color);
+  }
+  .favorites {
+    transition: 0.5s;
+  }
+  .button {
+    cursor: pointer;
+  }
+  
+  section {
+    transition: background-color 100ms ease-in;
+  }
+  
+  main {
+    height: fit-content;
+  }
+  on-icon {
+    transition: 200ms;
+  }
+  [name="star"],
+  [name="star-outline"] {
+    color: goldenrod;
+    margin: -2px;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--bg_body);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* mobile view */
+@media only screen and (max-width: 800px) {
+  .main-padding {
+    padding: 0 1rem;
+  }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 801px) {
+  .main-padding {
+    padding: 0 3.5rem;
+  }
+}
