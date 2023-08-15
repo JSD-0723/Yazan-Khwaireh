@@ -75,6 +75,8 @@
     cursor: pointer;
     border-radius: 0.4rem;
     box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
+    text-decoration: none;
+
   }
   .topic img {
     border-radius: 0.7rem 0.7rem 0rem 0rem;
@@ -91,11 +93,15 @@
     align-items: flex-start;
     height: 53%;
     padding: 1rem;
+    
   }
   
   .topic-name {
     max-width: 100%;
     max-height: 5rem;
+    text-decoration: none;
+    color: black;
+
   }
   .topic-name p {
     margin: 0;
