@@ -44,6 +44,15 @@
     font-weight: 400;
     width: 100%;
   }
+  .drop-down-menu:hover{
+  background-color: #ddd;
+  color: inherit;
+
+  }
+  .drop-down-menu:focus-within  {
+    background-color: #ddd;
+    color: inherit;
+  }
   
   .drop-down-menu label {
     font-weight: 400;
@@ -84,7 +93,11 @@
     color: #000;
 
   }
-  .topic img {
+  .topic:focus-within  {
+    background-color: #ddd;
+    color: inherit;  }
+  
+  .topic img {    
     border-radius: 0.7rem 0.7rem 0rem 0rem;
     background-color: white;
     height: 47%;
