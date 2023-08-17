@@ -64,7 +64,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     gap: 2rem;
-    margin-top: 2.3rem;
+    margin-top: 0.9rem;
   }
   .topic {
     display: flex;
@@ -73,7 +73,7 @@
     background-color: var(--bg_default);
     height: 17.4rem;
     cursor: pointer;
-    border-radius: 0.4rem;
+    border-radius: 0.8rem;
     box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
     text-decoration: none;
 
