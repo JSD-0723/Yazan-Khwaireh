@@ -76,6 +76,12 @@
     border-radius: 0.8rem;
     box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
     text-decoration: inherit;
+    
+
+  }
+  .topic:hover {
+    background-color: #ddd;
+    color: #000;
 
   }
   .topic img {
