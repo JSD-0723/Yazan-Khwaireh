@@ -75,7 +75,7 @@
     cursor: pointer;
     border-radius: 0.8rem;
     box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
-    text-decoration: none;
+    text-decoration: inherit;
 
   }
   .topic img {
@@ -111,6 +111,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 0.8rem;
+    font-weight: 500;
+    
   }
   
   .topic-title {
