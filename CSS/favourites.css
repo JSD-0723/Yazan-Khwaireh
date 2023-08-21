@@ -18,7 +18,7 @@
   flex-direction: column;
   background-color: var(--bg_default);
   width: 8rem;
-  border-radius: 0.7rem;
+  border-radius: 0.1rem;
   margin-top: 1rem;
 
   box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
@@ -45,6 +45,6 @@ h1 {
   gap: 1rem;
   padding-right: 3rem;
   padding-bottom: 0.5rem;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   overflow-y: hidden;
 }
