@@ -21,7 +21,7 @@
 
 
 <h3 align="center"> 
-     This Repoistroy includes Dark and white Theme mode with clickable buttons to add your favorites for now it's only static until some miracle happens.
+     This Repoistroy includes Dark and white Theme mode with clickable buttons to add your favorites tech Stack ,for now it's only static until some miracle happens.
 </h3> 
 
 
